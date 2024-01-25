@@ -1,0 +1,32 @@
+ border:'solid rgb(75, 72, 174)', boxShadow: 'rgb(179, 179, 185) 3px 3px 3px', borderTopLeftRadius:5, borderTopRightRadius:5, borderBottomLeftRadius:5,  borderBottomRightRadius:5,   overflow: 'hidden',   justifyContent: '',  paddingRight: 40,  paddingLeft: 40, backgroundColor:'rgb(75, 72, 174)', color: 'rgb(227, 227, 227)'} <View style={{width: 300,  marginTop: 200, border:'solid rgb(75, 72, 174)', boxShadow: 'rgb(179, 179, 185) 3px 3px 3px', borderTopLeftRadius:5, borderTopRightRadius:5, borderBottomLeftRadius:5,  borderBottomRightRadius:5,   overflow: 'hidden',   justifyContent: '',padding: 10,  paddingRight: 40,  paddingLeft: 40, backgroundColor:'rgb(75, 72, 174)', color: 'rgb(227, 227, 227)'}}>
+       <TouchableOpacity>
+            <Text style={{fontSize:20, color: 'white'}}>Mon Badge   <FontAwesomeIcon size={20} icon={faCreditCard} color='white' /></Text>
+      </TouchableOpacity>
+      </View>
+      
+      
+      <View style={{ width: 300, marginTop: 20, boxShadow: 'rgb(253, 253, 253) 3px 3px 3px', border:'solid white', borderTopLeftRadius:5, borderTopRightRadius:5, borderBottomLeftRadius:5,  borderBottomRightRadius:5,   overflow: 'hidden',  justifyContent: '', padding: 10,paddingRight: 40,  paddingLeft: 40, backgroundColor:'white', color: 'grey'}}>
+      <TouchableOpacity>
+       <Text style={{fontSize:20}}>Menu du jour   <FontAwesomeIcon size={20} icon={faBowlRice}  color='black' /></Text>
+       </TouchableOpacity>
+      </View>
+      
+      <View style={{ width: 300,  marginTop: 20,   justifyContent: '', boxShadow: 'rgb(140, 57, 57) 3px 3px 3px',border:'solid rgb(227, 85, 85)',borderTopLeftRadius:5, borderTopRightRadius:5, borderBottomLeftRadius:5,  borderBottomRightRadius:5, padding: 10, paddingRight: 80,  paddingLeft: 80, backgroundColor:'rgb(227, 85, 85)', color: 'black'}}>
+      <TouchableOpacity>
+       <Text style={{fontSize:20}}>Réglages   <FontAwesomeIcon size={20} icon={faWrench}  color='white'/></Text>
+       </TouchableOpacity>
+      </View>
+
+element {
+  flex: 1 1 0%;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 80px;
+  top: :80px;
+  z-index: 100;
+}
